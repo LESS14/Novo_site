@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../source/style.css">
+    <script type="text/javascript" src="../source/script.js"></script>
+    <!-- Font-awesome css core -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Font-awesome js core -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+    <!-- Bootstrap core css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <!-- Bootstrap core js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <!-- Jquery core js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        alert('Não é recomendado acessar este website pelo celular. Caso queira acessar, clique em ok(Alguns elementos poderão estar fora de lugar dependendo da resolução de seu dispositivo).')
+    }
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div class="navbar">
+         <div class="navbar-icons">
+            <a href="#"><i class="fab fa-discord" title="Discord server" id="discord-icon"></i></a>
+            <a class="divisor">|</a>
+            <a href="https://discord.gg/sxBxU5PtqB"><i class="fa-solid fa-gamepad" title="Servidor de SA-MP" id="samp-icon"></i></a>
+            <a class="divisor">|</a>
+            <a href="https://www.github.com/LESS14"></a><i class="fa-brands fa-github" title="Meu Github" id="github-icon"></i>
+         </div>
+         <div class="site-title">
+            <h5>arroz.me</h5>
+         </div>
+        </div>
+        <div class="navbar-text">
+            <ul class="navbar-text-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">Projetos</a></li>
+            </ul>
+        </div>
+
+        <div class="centered-content">
+            <h2>Olá, seja bem-vindo(a) ao meu site!</h2>
+
+            <div class="portfolio">
+                <div class="centered-portfolio">
+                <h2>Meus projetos:</h2>
+                <br/>
+                <div class="a1" onclick="OpenLink('https://www.brasilvidaideal.com');">
+                <a>BVI website</a>
+                <p>Um site para o servidor de SA-MP Brasil Vida Ideal</p><br/>
+            </div>
+                <div class="a2" onclick="OpenLink('samp://54.39.125.223:7777');">
+                <a>BVJ server</a>
+                <p>Um servidor existente no SA-MP há um bom tempo, reaberto há pouco tempo.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="portfolio-langs">
+            <h2 style="text-align:center;">Habilidades:</h2>
+            <div class="portfolio-langs-centered">
+                <div class="langs-1">
+                    <img src="../source/images/html.svg">
+                    <a>HTML</a>
+                    </div>
+                <div class="langs-2">
+                    <div class="langs-1">
+                    <img src="../source/images/css.svg">
+                    <a>CSS</a>
+                </div>
+                <div class="langs-2">
+                    <div class="langs-1">
+                    <img src="../source/images/react.svg">
+                    <a>React</a>
+                </div>
+                <div class="langs-2">
+                    <div class="langs-1">
+                    <img src="../source/images/javascript.svg">
+                    <a>Javacript</a>
+                </div>
+                <div class="langs-2">
+                    <div class="langs-1">
+                    <img src="../source/images/typescript.svg">
+                    <a>Typescript</a>
+                </div>
+                <div class="langs-2">
+                    <div class="langs-1">
+                    <img src="../source/images/node.svg">
+                    <a>Node</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <br/><br/><br/>
+            <h5>By Felipe_</h5>
+            <hr>
+            <p>arroz.me</p>
+        </div>
+    </div>
+</body>
+</html>
